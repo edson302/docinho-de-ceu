@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./Styles/output.css" />
+    <title>Gostinho de ceu doçaria</title>
+</head>
+<body>
+    <header class=" w-full h-[400px] bg-pink-900  bg-cover bg-center">
+        <div class="flex flex-col items-center justify-center h-full">
+            <img src="./assets/img/xc.png" alt="logodev"
+            class="w-32 h-32 rounded-full shadow-lg  hover:scale-110 duration-200"/>
+           
+
+        
+           
+            <h1  class="text-3xl  mt-2 mb-2 font-bold text-white">
+                Gostinho de céu doçaria
+            </h1>
+            <span class=" text-white font-medium">Rua patriota</span>
+            <div class="bg-green-500 px-4 py-1 rounded mt-6" id="date-span">
+                <span class="text-white font-medium" >Seg á Sab - 08:00 as 22h</span>
+            </div>
+        </div>
+    </header>
+
+    <h2 class="text-2xl font-bold mt-8 mb-6 text-center md:text-3xl">Conheça os nossos produtos</h2>
+    <div id="Menu">
+    <main class="grid grid-cols-1 md:grid-cols-2 md:gap-10 mx-auto gap-7 max-w-7xl px-2 mb-16">
+
+           <!-- Inicio do produto 1 -->
+        <div class="flex items-center  gap-2">
+            <img src="/assets/img/afinale.jpg" alt="primeiro hambur" class="w-28 h-28 rounded hover:scale-110 duration-300">
+            <div  class="w-full">
+                <p class="font-bold">Bolo de laranja</p>
+                <p class="text-sm">Cobertura de laranja saborosa</p>
+
+                <div class="flex  items-center gap-2 justify-between mt-3">
+                    <p class="font-bold">1200kz</p>
+                    <button class="bg-gray-900 px-5 rounded ad-cart-btn"
+                    
+                    data-name="Bolo de laranja" data-price="12000"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                </div>
+            </div>
+       
+        </div>
+
+
+        <!-- fim do produto 1 -->
+ <!-- Inicio do produto 2 -->
+
+        <div class="flex items-center  gap-2">
+            <img src="/assets/img/B chocolate.jpg" alt="primeiro hambur" class="w-28 h-28 rounded hover:scale-110 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Bolo cobertura de chocolate</p>
+                <p class="text-sm">Cobertura de chocolate light</p>
+
+                <div class="flex  items-center gap-2 justify-between mt-3">
+                    <p class="font-bold">13000kz</p>
+                    <button class="bg-gray-900 px-5 rounded ad-cart-btn"  
+                    data-name="Bolo cobertura de chocolate" 
+                    data-price="13000"> <i class="fa fa-cart-plus text-lg text-white"></i></button>
+                </div>
+            </div>
+       
+
+
+            
+        </div>
+        <!-- fim do produto 2 -->
+
+
+          <!-- Inicio do produto 3 -->
+          <div class="flex items-center  gap-2">
+            <img src="/assets/img/roscas de coco.jpg" alt="primeiro hambur" class="w-28 h-28 rounded hover:scale-110 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Roscas de coco</p>
+                <p class="text-sm">descrição mmmmmmmmmmmmm</p>
+
+                <div class="flex  items-center gap-2 justify-between mt-3">
+                    <p class="font-bold">6000kz</p>
+                    <button class="bg-gray-900 px-5 rounded ad-cart-btn"  
+                    data-name="Roscas de coco"
+                     data-price="6000"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                </div>
+            </div>
+       
+        </div>
+
+
+        <!-- fim do produto 3-->
+
+          <!-- Inicio do produto 4 -->
+          <div class="flex items-center  gap-2">
+            <img src="/assets/img/pao.jpg" alt="primeiro hambur" class="w-28 h-28 rounded hover:scale-110 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Pão de chouriço</p>
+                <p class="text-sm">descrição mmmmmmmmmmmmm</p>
+
+                <div class="flex  items-center gap-2 justify-between mt-3">
+                    <p class="font-bold">6000kz</p>
+                    <button class="bg-gray-900 px-5 rounded ad-cart-btn"
+                    
+                    data-name="Pão de chouriço" data-price="6000"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                </div>
+            </div>
+       
+        </div>
+
+
+        <!-- fim do produto 4 -->
+
+
+          <!-- Inicio do produto 5 -->
+          <div class="flex items-center  gap-5">
+            <img src="/assets/img/banana.jpg" alt="primeiro hambur" class="w-28 h-28 rounded hover:scale-110 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Bolo mármore</p>
+                <p class="text-sm">descrição mmmmmmmmmmmmm</p>
+
+                <div class="flex  items-center gap-2 justify-between mt-3">
+                    <p class="font-bold">12000kz</p>
+                    <button class="bg-gray-900 px-5 rounded ad-cart-btn"
+                    
+                    data-name="Bolo mármore" data-price="12000"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                </div>
+            </div>
+       
+        </div>
+
+
+        <!-- fim do produto 5 -->
+           <!-- Inicio do produto 6 -->
+        <div class="flex items-center  gap-2">
+            <img src="/assets/img/chocolate .jpg" alt="primeiro hambur" class="w-28 h-28 rounded hover:scale-110 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Bolo chocolate simples </p>
+                <p class="text-sm">descrição mmmmmmmmmmmmm</p>
+
+                <div class="flex  items-center gap-2 justify-between mt-3">
+                    <p class="font-bold">10000kz</p>
+                    <button class="bg-gray-900 px-5 rounded ad-cart-btn" data-name="Bolo chocolate simples " data-price="10000"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                </div>
+            </div>
+       
+        </div>
+
+
+        <!-- fim do produto 6 -->
+
+          
+    </main>
+
+
+
+    <div class=" mx-auto px-2 max-w-7xl my-2">
+            <h2 class="font-bold text-3xl ">Bebidas</h2>
+    </div>
+ <!-- Grid bebidas -->
+<div class="grid grid-cols-1 md:grid-cols-2  mx-auto gap-7 max-w-7xl px-2 mb-9"  id="menu">
+  <!-- Inicio bebidas -->
+  <div class="flex   gap-2 w-full">
+    <img src="/assets/img/refri-1.png" alt="coca lata" class="w-28 h-28 rounded hover:scale-110 duration-300">
+    <div class="w-full">
+        <p class="font-bold">Coca-cola</p>
+       
+
+        <div class="flex  items-center gap-2 justify-between mt-3">
+            <p class="font-bold">900kz</p>
+            <button class="bg-gray-900 px-5 rounded ad-cart-btn" data-name="Coca-cola" data-price="900"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- bebidas -->
+
+<!-- Inicio 2 bebidas -->
+<div class="flex   gap-2 w-full">
+    <img src="/assets/img/refri-2.png" alt="fanta lata" class="w-28 h-28 rounded hover:scale-110 duration-300">
+    <div class="w-full">
+        <p class="font-bold">Fanta</p>
+       
+
+        <div class="flex  items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">500kz</p>
+            <button class="bg-gray-900 px-5 rounded ad-cart-btn"
+            
+            data-name="Fanta" data-price="500"> <i class="fa fa-cart-plus text-lg text-white"></i></button>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- bebidas 2 -->
+
+</div>
+
+   <!-- Grid bebidas -->
+
+</div>
+   <!-- Modal-->
+
+<div class="bg-black/50 w-full h-full  fixed z[99] top-0 left-0  items-center justify-center hidden" id="card-modal">
+
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold  text-2xl mb-2">Meu carrinho</h2>
+
+        <div id="cart-items" class="flex justify-between flex-col mb-2">
+            <!-- cart items here -->
+
+
+        </div>
+
+        <p class="font-bold">Total: <span class="tart total" id="cart-total"></span></p>
+        <p class="font-bold mt-4">Endereço de entrega: </p>
+        <input type="text" placeholder="Digite o seu endereço" id="adress" 
+        class="w-full p-1 rounded  border-2 my-1">
+
+        <p class="hidden text-red-500" id="adreess-warn">Digite o seu endereço </p>
+        <div class="flex justify-between w-full mt-5">
+            <button id="close-modal-btn">Fechar</button>
+            <button id="checkout-btn" class="bg-green-500 py-2 text-white px-4 rounded">Finalizar pedido</button>
+        </div>
+    </div>
+</div>
+   <!-- Modal-->
+
+    <footer class="w-full bg-pink-500 fixed bottom-0 z-40 flex items-center justify-center py-2">
+        <button class=" flex  items-center gap-2 text-white  font-bold" id="cart-btn" >
+          (<span id="card-count">0</span>)  
+          Veja o carrinho
+          <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>

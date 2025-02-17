@@ -1,4 +1,4 @@
-<h1>Congrats Project</h1>
+<h1>Gostinho de ceu</h1>
 <br>
 <br>
 <h2>Deploy- Podes acessar em <a href="https://docinhodeceu.netlify.app/">Gostinho de ceu</a></h2>
@@ -16,3 +16,9 @@
 </div>
 <br>
 <br>
+<div align="left">
+<img src="https://github.com/edson302/docinho-de-ceu/blob/main/assets/img/mac%20docinho.png?raw=true"/> 
+<br>
+<br>
+<img src="https://github.com/edson302/docinho-de-ceu/blob/main/assets/img/phone%20docinho.png?raw=true"/> 
+</div>

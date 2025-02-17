@@ -2,7 +2,7 @@
 <br>
 <br>
 <p>Projeto de um cardápio online de uma doçaria, em que podes acessar fazer os pedidos e em seguidas são enviados para o whatsapp</p>
-<h2>Deploy- Podes acessar em <a href="https://docinhodeceu.netlify.app/">Gostinho de ceu</a></h2>
+<h2>Deploy- Podes acessar em <a href="https://gostinhodeceu.netlify.app/">Gostinho de ceu</a></h2>
 <br>
 <br>
 <h2>Tecnologias usadas</h2>

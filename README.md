@@ -1,6 +1,7 @@
 <h1>Gostinho de ceu</h1>
 <br>
 <br>
+<p>Projeto de um cardápio online de uma doçaria, em que podes acessar fazer os pedidos e em seguidas são enviados para o whatsapp</p>
 <h2>Deploy- Podes acessar em <a href="https://docinhodeceu.netlify.app/">Gostinho de ceu</a></h2>
 <br>
 <br>
@@ -16,7 +17,7 @@
 </div>
 <br>
 <br>
-<div align="left">
+<div align="center">
 <img src="https://github.com/edson302/docinho-de-ceu/blob/main/assets/img/mac%20docinho.png?raw=true"/> 
 <br>
 <br>
